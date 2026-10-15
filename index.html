@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Analytics Lab — Experimental Website</title>
+  <meta name="description" content="A simple experimental website created for a Google Analytics 4 university practical.">
+
+  <!-- Google Analytics 4: replace G-XXXXXXXXXX with your own GA4 Measurement ID. -->
+  <!-- Remove the comments around the following script after adding your ID. -->
+  <!--
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-XXXXXXXXXX');
+  </script>
+  -->
+
+  <style>
+    :root { color-scheme: light; font-family: Arial, Helvetica, sans-serif; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: #172033; background: #f4f7fb; line-height: 1.6; }
+    header { background: #183153; color: white; padding: 3.5rem 1.25rem; text-align: center; }
+    header h1 { margin: 0 0 .5rem; font-size: clamp(2rem, 5vw, 3rem); }
+    header p { margin: 0 auto; max-width: 650px; color: #e3eaf4; }
+    main { max-width: 900px; margin: 2rem auto; padding: 0 1rem; }
+    section { background: white; margin: 1rem 0; padding: 1.5rem; border-radius: 12px; box-shadow: 0 3px 14px #1527430d; }
+    h2 { margin-top: 0; color: #183153; }
+    .tag { display: inline-block; padding: .25rem .65rem; background: #e8f0fb; color: #183153; border-radius: 999px; font-size: .9rem; }
+    footer { text-align: center; padding: 1.5rem; color: #586579; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <span class="tag">University practical project</span>
+    <h1>Analytics Lab</h1>
+    <p>A small experimental website used to test Google Analytics 4 data collection.</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About this project</h2>
+      <p>Analytics Lab is a demonstration website created to learn how web analytics works. It is not a commercial website.</p>
+    </section>
+
+    <section>
+      <h2>What are we testing?</h2>
+      <p>This website will be used to test page-view collection and verify whether visits appear in the Google Analytics 4 Realtime report.</p>
+    </section>
+
+    <section>
+      <h2>Explore the page</h2>
+      <p>Refresh this page or return to it in another browser tab after analytics has been configured. Then check the Realtime report in Google Analytics.</p>
+    </section>
+  </main>
+
+  <footer>Analytics Lab · Educational demonstration</footer>
+</body>
+</html>
